@@ -1,0 +1,13 @@
+{
+  "name": "verikami",
+  "version": "0.0.0",
+  "description": "veriKami Visual Arts",
+  "author": "veriKami <verikami@gmail.com> (https://verikami.com/)",
+  "repository": "veriKami/veriKami",
+  "keywords": "veriKami",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "verikami": "bin.js"
+  }
+}
