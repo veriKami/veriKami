@@ -10,7 +10,7 @@ My latest work – (npm/jsr) module for parsing nested definision lists.
 [![NPM][NPM Badge]][NPM]
 [![JSR][JSR Badge]][JSR]
 
-Remark plugin. A wrapper around `remark-deflist` with improved support for nested definition lists.
+**[Remark]** plugin. A wrapper around `remark-deflist` with improved support for nested definition lists.
 It preserves all the original functionality and performs additional processing.
 Bun, Deno and Cloudflare Workers compatibility. Also works in Astro and web browser.
 
