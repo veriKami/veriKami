@@ -12,13 +12,13 @@ My latest work – (npm/jsr) module for parsing nested definision lists.
 
 **[Remark]** plugin. A wrapper around **[remark-deflist]** with improved support for nested definition lists.
 It preserves all the original functionality and performs additional processing.
-**[Bun]**, **[Deno]** and **[Cloudflare Workers]** compatibility. Also works in **[Astro]** and web browser.
+Bun, Deno and Cloudflare Workers compatibility. Also works in Astro and web browser.
 
-<hr style="height:0;border-bottom:1px solid #ccc;margin:20px 0 0;">
+<hr style="height:1px;margin:20px 0 0;">
 <details style="margin:0;padding:0;">
 <summary style="margin:0 0 30px;padding:0;">
 Implementation Details
-<hr style="height:0;border-bottom:1px solid #ccc;margin:15px 0 0;">
+<hr style="height:1px;margin:15px 0 0;">
 </summary>
 
 ### Installation
@@ -236,7 +236,7 @@ Original work — MIT © Alex Shaw
 
 MIT © [veriKami](https://verikami.com) °// Weronika Kami
 
-<hr style="height:0;border-bottom:1px solid #ccc;margin:30px 0;">
+<hr style="height:1px;margin:30px 0;">
 </details>
 
 [GH]: https://github.com/veriKami/remark-deflist-revisited
