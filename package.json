@@ -10,5 +10,8 @@
   "type": "module",
   "bin": {
     "verikami": "bin.js"
-  }
+  },
+  "files": [
+    "bin.js"
+  ]
 }
