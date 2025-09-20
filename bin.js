@@ -2,7 +2,7 @@
 //: --------------------------------------------------------
 //: bin.js
 //: --------------------------------------------------------
-import { writeFileSync } from "node:fs";
+import { existsSync, writeFileSync } from "node:fs";
 
 const veriKami = `
 \`\`\`
@@ -44,7 +44,7 @@ const veriKami = `
 \`\`\`
 `.trim() + "\n";
 
-writeFileSync("README.md", veriKami, "utf-8");
+if (!existsSync("README.md")) writeFileSync("README.md", veriKami, "utf-8");
 
 console.log("\x1b[35m%s\x1b[0m", "ツ", "veriKami Visual Arts");
 console.log("\x1b[33m%s\x1b[0m", veriKami.replace(/`/g, ""));
