@@ -10,34 +10,18 @@ Developed on the margins of a certain markdown-related project.
 [![CI][CI Badge]][CI]
 [![NPM][NPM Badge]][NPM]
 [![JSR][JSR Badge]][JSR]
+[![Socket][Socket Badge]][Socket]
 
 **[Remark]** plugin. A wrapper around `remark-deflist` with improved support for nested definition lists.
 It preserves all the original functionality and performs additional processing.
 **[Bun]**, **[Deno]** and **[Cloudflare Workers]** compatibility. Also works in **[Astro]** and web browser.
 
 <hr style="height:1px;margin:15px 0 15px;">
-
-<details><summary>Implementation Details</summary><hr>
-
-### Installation
-
-```bash
-ツ pnpm add @verikami/remark-deflist-revisited
-ツ npm i @verikami/remark-deflist-revisited
-```
-
-Cloudflare Worker demo
-
-```bash
-ツ npx @verikami/remark-deflist-revisited@latest
-ツ npx @verikami/remark-deflist-revisited --help
-```
-
-### Description
+<details><summary>Project Description</summary><hr>
 
 **The problem** with `remark-deflist` is that the plugin renders nested list items inside `<dd>` incorrectly.
 
-**Markdown**
+### Markdown
 
 ```markdown
 Term
@@ -74,6 +58,23 @@ With `@verikami/remark-deflist-revisited`
     <li> item C </li>
   </ul>
 </dl>
+```
+
+<hr></details>
+<details><summary>Installation and Usage</summary><hr>
+
+### Installation
+
+```bash
+ツ pnpm add @verikami/remark-deflist-revisited
+ツ npm i @verikami/remark-deflist-revisited
+```
+
+Cloudflare Worker demo
+
+```bash
+ツ npx @verikami/remark-deflist-revisited@latest
+ツ npx @verikami/remark-deflist-revisited --help
 ```
 
 ### Usage in Node.js
@@ -198,33 +199,6 @@ export default {
 
 ```
 
-### Processing Flow
-
-[![CC][CC Badge]][CC]
-[![CI][CI Badge]][CI]
-[![NPM][NPM Badge]][NPM]
-[![JSR][JSR Badge]][JSR]
-[![Socket][Socket Badge]][Socket]
-
-```
-Markdown
-   │
-Plugin (wrapped remark-deflist)
-   │
-AST // HTML
-   │
-Snapshots (vitest)
-   │
-Build (npm) ./dist + (jsr) ./lib
-   │
-CI/CD (GitHub Actions)
-   │
-┌──────────┬─────────┬─────────┐
-│ GitHub   │   NPM   │   JSR   │
-│ Packages │         │         │
-└──────────┴─────────┴─────────┘
-```
-
 ### License
 
 Original work — MIT © Alex Shaw
@@ -282,7 +256,7 @@ npx @verikami/remark-deflist-revisited --help
 2025 © MIT °// veriKami °// Weronika Kami
 
 </details>
-<hr>
+<hr style="height:1px;margin:15px 0 15px;">
 
 ```
         (▒)(▒)_______███☼███____(▒)(▒)
