@@ -77,7 +77,9 @@ Cloudflare Worker demo
 ツ npx @verikami/remark-deflist-revisited --help
 ```
 
-### Usage in Node.js
+### Usage
+
+<details><summary>**Usage in Node.js**</summary>
 
 ```js
 import { remark } from "remark";
@@ -100,7 +102,8 @@ console.log(String(output));
 
 ```
 
-### Usage in Deno
+</details>
+<details><summary>**Usage in Deno**</summary>
 
 ```js
 import { remark } from "npm:remark@^15";
@@ -111,7 +114,8 @@ import deflist from "npm:@verikami/remark-deflist-revisited";
 
 ```
 
-### Usage in Astro
+</details>
+<details><summary>**Usage in Astro**</summary>
 
 ```js
 import remarkDeflist from "@verikami/remark-deflist-revisited";
@@ -126,7 +130,8 @@ export default defineConfig({
 
 ```
 
-### Usage in Cloudflare Worker
+  </details>
+  <details><summary>**Usage in Cloudflare Worker**</summary>
 
 ```js
 import { remark } from "remark";
@@ -157,7 +162,8 @@ export default {
 
 ```
 
-### Usage in html
+</details>
+<details><summary>**Usage in html**</summary>
 
 ```html
 <html>
@@ -198,6 +204,8 @@ export default {
 </html>
 
 ```
+
+</details>
 
 ### License
 
