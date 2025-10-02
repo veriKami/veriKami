@@ -17,11 +17,7 @@ It preserves all the original functionality and performs additional processing.
 
 <hr style="height:1px;margin:15px 0 15px;">
 
-<details style="margin:0;padding:0;">
-<summary style="margin:0;padding:0;">
-Implementation Details
-<hr style="height:1px;margin:15px 0 15px;">
-</summary>
+<details><summary>Implementation Details</summary><hr>
 
 ### Installation
 
@@ -238,14 +234,8 @@ Original work — MIT © Alex Shaw
 
 2025 © MIT °// veriKami °// Weronika Kami
 
-<hr style="height:1px;margin:30px 0;">
-</details>
-
-<details style="margin:0;padding:0;">
-<summary style="margin:0 0 0px;padding:0;">
-Examples and Templates
-<hr style="height:1px;margin:15px 0 15px;">
-</summary>
+<hr></details>
+<details><summary>Examples and Templates</summary><hr>
 
 Example implementations for `@verikami/remark-deflist-revisited`.  
 They are also published as standalone repositories (templates):
@@ -291,8 +281,8 @@ npx @verikami/remark-deflist-revisited --help
 
 2025 © MIT °// veriKami °// Weronika Kami
 
-<hr style="height:1px;margin:30px 0;">
 </details>
+<hr>
 
 ```
         (▒)(▒)_______███☼███____(▒)(▒)
