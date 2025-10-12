@@ -3,6 +3,8 @@
 My latest "pro bono" work – (npm/jsr) module for parsing nested definision lists.  
 Developed on the margins of a certain markdown-related project.
 
+Project (page) → [verikami.github.io/remark-deflist-revisited][page:revisited]
+
 ## @verikami/remark-deflist-revisited
 
 [![GH][GH Badge]][GH]
@@ -209,7 +211,7 @@ Original work — MIT © Alex Shaw
 * [gh: Symbitic/remark-plugins](https://github.com/Symbitic/remark-plugins)
 * [npm: remark-deflist](https://www.npmjs.com/package/remark-deflist)
 
-2025 © MIT °// veriKami °// Weronika Kami
+2025 © MIT \\\° veriKami °// Weronika Kami
 
 <hr></details>
 <details name="d3" open><summary><strong>Examples and Templates</strong></summary><hr>
@@ -255,7 +257,7 @@ npx @verikami/remark-deflist-revisited --help
 
 ### License
 
-2025 © MIT °// veriKami °// Weronika Kami
+2025 © MIT \\\° veriKami °// Weronika Kami
 
 </details>
 <hr style="height:1px;margin:15px 0 15px;">
@@ -298,12 +300,12 @@ npx @verikami/remark-deflist-revisited --help
         ______________██__█▄
 ```
 
-2025 © °// [veriKami] °// [Weronika Kami]
+2025 © \\\° [veriKami] °// [Weronika Kami]
 
 [veriKami]: https://verikami.com
 [Weronika Kami]: https://linkedin.com/in/verikami
 
-[page]: https://verikami.github.io/remark-deflist-revisited
+[page:revisited]: https://verikami.github.io/remark-deflist-revisited
 [inline]: https://verikami.github.io/remark-deflist-revisited/script.esm.sh.html
 [generated]: https://verikami.github.io/remark-deflist-revisited/generated
 
@@ -329,7 +331,7 @@ npx @verikami/remark-deflist-revisited --help
 [CI Badge]: https://github.com/veriKami/remark-deflist-revisited/actions/workflows/publish.yml/badge.svg
 [CI]: https://github.com/veriKami/remark-deflist-revisited/actions/workflows/publish.yml
 
-[NPM Badge]: https://img.shields.io/npm/v/@verikami/remark-deflist-revisited?logo=npm&logoColor=white&labelColor=red&color=black
+[NPM Badge]: https://img.shields.io/npm/v/@verikami/remark-deflist-revisited?logo=npm&logoColor=white&labelColor=crimson&color=black
 [NPM]: https://www.npmjs.com/package/@verikami/remark-deflist-revisited
 
 [JSR Badge]: https://jsr.io/badges/@verikami/remark-deflist-revisited
