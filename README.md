@@ -12,7 +12,6 @@ Project (page) → [verikami.github.io/remark-deflist-revisited][page:revisited]
 [![CI][CI Badge]][CI]
 [![NPM][NPM Badge]][NPM]
 [![JSR][JSR Badge]][JSR]
-[![Socket][Socket Badge]][Socket]
 
 **[Remark]** plugin. A wrapper around `remark-deflist` with improved support for nested definition lists.
 It preserves all the original functionality and performs additional processing.
