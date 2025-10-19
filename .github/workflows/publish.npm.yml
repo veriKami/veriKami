@@ -17,18 +17,28 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
+          #: ---------------
           # node-version: 20
           #: ---------------
           #: node: v20.19.5
           #: npm: 10.8.2
           #: yarn: 1.22.22
           #: ---------------
-          node-version: 22
+          # node-version: 22
+          #: ---------------
+          #: node: v22.20.0
+          #: npm: 10.9.3
+          #: yarn: 1.22.22
+          #: ---------------
+          node-version: 24
+          #: ---------------
           registry-url: "https://registry.npmjs.org"
 
       # Ensure npm 11.5.1 or later is installed
       - name: "Update npm"
         run: npm install -g npm@latest
+
+      - run: npm -v
 
       # - run: npm ci
       # - run: npm run build --if-present
