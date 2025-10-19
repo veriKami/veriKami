@@ -32,14 +32,16 @@ jobs:
           #: ---------------
           node-version: 24
           #: ---------------
+          #: node: v24.10.0
+          #: npm: 11.6.1
+          #: yarn: 1.22.22
+          #: ---------------
           registry-url: "https://registry.npmjs.org"
 
       # Ensure npm 11.5.1 or later is installed
-      - name: "Update npm"
-        run: npm install -g npm@latest
-
-      - run: npm -v
-
+      # - name: "Update npm"
+      #   run: npm install -g npm@latest
+      #
       # - run: npm ci
       # - run: npm run build --if-present
       # - run: npm test
